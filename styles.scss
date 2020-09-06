@@ -1,0 +1,251 @@
+$headercolor :#3498db;
+*{
+    i{
+        padding: 10px;
+    }
+    box-sizing:border-box;
+    body {
+        #header{
+            background-color: $headercolor ;
+            padding: 1em;
+            #nav-links{
+                display: flex;
+                flex-direction: row;
+                justify-content: center; 
+                .nav-link{
+                    color:white;
+                    font-size: 1.5em;
+                    font-family: 'Raleway', sans-serif;
+                    .bkgrd{
+                        background-color: $headercolor;
+                        border-radius: 5px;
+                        padding:0.25em;                      
+                        &:hover{
+                            background-color: white;
+                            color:$headercolor ;
+                            border-radius: 5px;
+                            padding:0.25em;
+                            -webkit-transition: all 0.6s ease;
+                        }
+                    }
+                }
+            }
+        }
+        #welcome-section{
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+            background-color:#000;
+            background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+            height: 100%;
+            padding-bottom: 5rem;
+            #profile{
+                padding-top: 100px;
+                width: 150px;
+            }
+            h1{
+                padding-top:4rem;
+                color: white;
+                font-size:5rem;
+                font-weight: 1000;
+            }
+            #subheader{
+                color: $headercolor;
+                font-style: italic;
+                font-size: 2rem;
+                padding-bottom: 2rem;
+            }
+            .text{
+                margin-left: 20px;
+                margin-right: 20px;
+        
+                color: white;
+                font-size: 1.2em;
+                padding-bottom: 1rem;
+            }
+            .course{
+                color:$headercolor;
+            }
+            h2{
+                color: white;
+                font-style: italic;
+                padding-top: 3rem;
+            }
+            img{
+                width: 55px;
+                transition: transform .3s ease;
+                padding-right: 1em;
+                &:hover{
+                    transform: scale(1.3);
+                }
+            }
+        }
+        #projects{
+            font-family: 'Raleway', sans-serif;
+            #professional{
+                background-color: #f39c12 ;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+                text-align: center;
+                h2{
+                    color: white;
+                    font-size: xxx-large;
+                    font-weight: 550;
+                    margin-bottom: 50px;
+                }
+               
+                #projects-grid{
+                    display: grid;
+                    grid-gap: 4rem;
+                    width: 100%;
+                    max-width: 1280px;
+                    margin: 0 auto;
+                    margin-bottom: 6rem;
+                    
+                    .project{
+                        text-decoration: none;
+                        color: white;
+                        margin:auto;
+                        img {
+                            width:50%;
+                            height: auto;
+                            
+                        }
+                        h4{
+                            width:50%;
+                            margin:0 auto;
+                            background:  #b9770e ;
+                            a{
+                                i{
+                                    color:white;
+                                    transition: transform .3s ease;
+                                    &:hover{
+                                        color:#f39c12;
+                                        transform: scale(1.5);
+                                    }
+                                }
+                            }
+                        }
+                        p{
+                            width:50%;
+                            margin:0 auto;background:  #b9770e ;
+                            padding: 30px;
+                        }
+
+                    }
+                }
+            }
+            #personal{
+                background-color:#d35400;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+                text-align: center;
+                h2{
+                    color: white;
+                    font-size: xxx-large;
+                    font-weight: 550;
+                    margin-bottom: 50px;
+                }
+               
+                #projects-grid{
+                    display: grid;
+                    grid-gap: 4rem;
+                    width: 100%;
+                    max-width: 1280px;
+                    margin: 0 auto;
+                    margin-bottom: 6rem;
+                    .project{
+                        text-decoration: none;
+                        color: white;
+                        margin:auto;
+                        img {
+                            width:50%;
+                            height: auto;
+                        }
+                        h4{
+                            width:50%;
+                            margin:0 auto;
+                            background: #a04000  ;
+                            a{
+                                i{
+                                    color:white;
+                                    transition: transform .3s ease;
+                                    &:hover{
+                                        color:#d35400;
+                                        transform: scale(1.5);
+                                    }
+                                }
+                            }
+                        }
+                        p{
+                            width:50%;
+                            margin:0 auto;background: #a04000  ;
+                            padding: 30px;
+                        }
+
+                    }
+                }
+            }
+        }
+        #contact{
+            padding-top:8rem;
+            height: 70vh;
+            font-family: 'Raleway', sans-serif;
+            background-color:  #8e44ad;
+            #contact-header{
+                h2{
+                    text-align: center;
+                    color: white;
+                    font-size: xxx-large;
+                    font-weight: 550;
+                    margin-bottom: 50px;
+                }
+            }
+            #contact-links{
+                text-align: center;
+                padding-bottom: 6em;;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: x-large;
+                    span{
+                        padding:0.25em;
+                    }
+                    #linkedin{
+                        &:hover{
+                            background-color: #0E76A8;
+                            border-radius: 5px;
+                            padding:0.25em;
+                            -webkit-transition: all 0.3s ease;
+                        }
+                    }
+                    #github{
+                        &:hover{
+                            background-color: black;
+                            border-radius: 5px;
+                            padding:0.25em;
+                            -webkit-transition: all 0.3s ease;
+                        }
+                    }
+                    #email{
+                        &:hover{
+                            background-color: #28b463 ;
+                            border-radius: 5px;
+                            padding:0.25em;
+                            -webkit-transition: all 0.3s ease;
+                        }
+                    }
+                }
+                
+            }
+            #blue-line{
+                height:5px;
+                background-color: $headercolor;
+            }
+            #name{
+                padding-top: 1em;
+                color:white;
+                text-align: center;
+            }
+        }
+}
+}
