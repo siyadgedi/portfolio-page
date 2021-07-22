@@ -235,7 +235,7 @@
 
 * body #contact {
   padding-top: 8rem;
-  height: 70vh;
+  height: 50vh;
   font-family: 'Raleway', sans-serif;
   background-color: #8e44ad;
 }
@@ -250,7 +250,7 @@
 
 * body #contact #contact-links {
   text-align: center;
-  padding-bottom: 6em;
+  padding-bottom: 3em;
 }
 
 * body #contact #contact-links a {
